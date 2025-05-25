@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@angular-eslint/recommended",
+    "plugin:@angular-eslint/template/recommended"
+  ],
+  "rules": {
+    "css/no-unknown-at-rules": "off"
+  }
+}
